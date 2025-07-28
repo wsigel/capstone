@@ -1,0 +1,35 @@
+.container-fluid img {
+    margin: 20px;
+}
+
+#navbarSupportedContent {
+   margin-top: 10px;
+}
+
+p > span {
+    font-weight: bold;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+#map {
+    margin: auto;
+    margin-top: 20px;;
+    width: 80vw;
+    height:80vw;
+    background-color: lightsalmon;
+}
+
+label {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    #navbarSupportedContent {
+        margin-bottom: 10px;
+    }
+}
