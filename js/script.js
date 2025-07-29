@@ -11,7 +11,7 @@ function updateLocations(value){
     if (value == 1) {
         let option = document.createElement("option");
         option.value = 0;
-        option.text = "";
+        option.text = "---";
         select.add(option);
 
         for (let i = 0; i < historicalLocations.length; i++) {
@@ -24,7 +24,7 @@ function updateLocations(value){
     else if (value == 2) {
         let option = document.createElement("option");
         option.value = 0;
-        option.text = "";
+        option.text = "---";
         select.add(option);
 
         for (let i = 0; i < museumArtLocations.length; i++) {
@@ -37,7 +37,7 @@ function updateLocations(value){
     else if (value == 3) {
         let option = document.createElement("option");
         option.value = 0;
-        option.text = "";
+        option.text = "---";
         select.add(option);
 
         for (let i = 0; i < neighborhoodLocations.length; i++) {
@@ -50,7 +50,7 @@ function updateLocations(value){
     else if (value == 4) {
         let option = document.createElement("option");
         option.value = 0;
-        option.text = "";
+        option.text = "---";
         select.add(option);
         
         for (let i = 0; i < foodNightlifeLocations.length; i++) {
