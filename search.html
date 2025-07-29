@@ -35,9 +35,9 @@
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 ">
         <div class="col">      
-        <label for="categories">Select a category:</label>
+        <label for="categories">1. Select a category:</label>
         <select id="categories" name="categories" class="form-select " onchange="updateLocations(this.value)">
-          <option value="0"></option>
+          <option value="0">---</option>
           <option value="1">Historical Landmarks & World War II Sites</option>
           <option value="2">Museums & Art</option>
           <option value="3">Neighborhood Culture & Street Life</option>    
@@ -47,7 +47,7 @@
       <div class="col">
         <label for="locationsList">Select a location:</label>
         <select id="locationsList" name="locationsList" class="form-select " onchange="updateMap(this.value)">
-          <option value="0"></option>          
+          <option value="0">---</option>          
         </select>
       </div>
     </div>
