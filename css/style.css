@@ -1,6 +1,5 @@
 .container-fluid img {
-    margin: 20px;
-    
+    margin: 20px;    
     border-radius: 15%;
 }
 
@@ -22,8 +21,7 @@ h1 {
     margin: auto;
     margin-top: 20px;;
     width: 80vw;
-    height:80vw;
-    background-color: lightsalmon;
+    height:80vw;    
 }
 
 label {

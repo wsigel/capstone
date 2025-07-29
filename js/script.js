@@ -142,6 +142,11 @@ function findLocation(id){
 function updateMap(value) {
     
     console.log(value);
-    console.log(findLocation(value));
+    let location = findLocation(value);
+    if (location) {
+        displayMap(location.longitude, location.latitude, location.description);
+    } else {
+        console.error("Location not found");
+    }
 }
 
