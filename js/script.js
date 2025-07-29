@@ -115,7 +115,7 @@ async function displayMap(longitude, latitude, description) {
     // Create a map centered at the specified coordinates
     const map = new google.maps.Map(document.getElementById("map"), {
         center: position,
-        zoom: 21,
+        zoom: 15,
         MapId: "11f0eff212748841eef345b7"
     });
 
