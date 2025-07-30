@@ -38,6 +38,11 @@ main {
     flex-grow: 1;
 }
 
+.card {
+    --bs-card-border-width: 5px;
+    --bs-card-inner-border-radius: calc(0.375rem - 5px);
+}
+
 @media screen and (min-width: 992px) {
     #navbarSupportedContent {
         margin-bottom: 10px;
