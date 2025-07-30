@@ -130,18 +130,14 @@ async function displayMap(longitude, latitude, description) {
 function findLocation(id){
     let location = allLocations.find(loc => loc.value === id);
     if (location) {
-        return location;
-        //console.log(`Location found: ${location.description} at (${location.latitude}, ${location.longitude})`);
-        //displayMap(location.longitude, location.latitude, location.description);
+        return location;        
     }
     else {
         location = new Location("0", "City of Berlin", 13.404954, 52.520008);
         return location;
     }
 }
-function updateMap(value) {
-    
-    console.log(value);
+function updateMap(value) {        
     let location = findLocation(value);
     if (location) {
         displayMap(location.longitude, location.latitude, location.description);
